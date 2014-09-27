@@ -1,4 +1,10 @@
-class Ex2_0 {
+import java.util.Scanner;
+
+abstract class Ex {
+	abstract void execute();
+}
+
+class Ex2_0 extends Ex{
 	void execute(){
 		int x;
 		int y;
@@ -15,7 +21,8 @@ class Ex2_0 {
 
 public class Ex2 {
 	public static void main(String[] args){
-		Ex2_0 a = new Ex2_0();
+		Ex a;
+		a = new Ex2_0();
 		a.execute();
 	}
 }
