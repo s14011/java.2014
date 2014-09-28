@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 abstract class Ex {
 	abstract void execute();
