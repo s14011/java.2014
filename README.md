@@ -2,28 +2,28 @@
 
 1. 「[java.2014](https://github.com/KimiyukiYamauchi/java.2014)」を「git clone」
 
-```
+--
 git clone https://github.com/KimiyukiYamauchi/java.2014 (任意のディレクトリ名)
-```
+--
 
 2. リモートリポジトリ「origin」を別の名前に変える
 
-```
+--
 git remote rename origin  (任意の別名)
-```
+--
 
 3. 各自のGithubに演習をアップするためのリポジトリを作成
 4. 上で作成したリモートリポジトリに「origin」と名前をつける
 
-```
+--
 git remote add origin  (各自のリモートリポジトリのURL)
-```
+--
 
 5. ローカルリポジトリをリモートのpushする
 
-```
+--
 git push -u origin master
-```
+--
 
 6. 以降は以下の操作
 
@@ -31,9 +31,9 @@ git push -u origin master
 
 		1. ローカルリポジトリをリモートのpushする 
 
-```
+--
 git push
-```
+--
 
 		2. 講師に演習を作成した旨連絡
 
@@ -41,9 +41,9 @@ git push
 
 		1. 「[java.2014](https://github.com/KimiyukiYamauchi/java.2014)」を「git pull」
 
-```
+--
 git pull -u (自分がつけた別名) master
-```
+--
 
 ## 演習問題
 
