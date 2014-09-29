@@ -5,6 +5,7 @@
 ```
 git clone https://github.com/KimiyukiYamauchi/java.2014 (任意のディレクトリ名)
 ```
+
 2. リモートリポジトリ「origin」を別の名前に変える
 
 ```
