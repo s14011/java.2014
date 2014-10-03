@@ -32,7 +32,7 @@
 	* ひな形などの最新を入手する場合、
 
 		1. 「[java.2014](https://github.com/KimiyukiYamauchi/java.2014)」を「git pull」
-<br />$ git pull -u (自分がつけた別名) master<br /><br />
+<br />$ git pull (自分がつけた別名) master<br /><br />
 
 ## 演習問題
 
