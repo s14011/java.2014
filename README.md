@@ -2,20 +2,32 @@
 
 1. 「[java.2014](https://github.com/KimiyukiYamauchi/java.2014)」を「git clone」
 <br />$ git clone https://github.com/KimiyukiYamauchi/java.2014 (任意のディレクトリ名)<br /><br />
-2. リモートリポジトリ「origin」を別の名前に変える
+1. リモートリポジトリ「origin」を別の名前に変える
 <br />$ git remote rename origin  (任意の別名)<br /><br />
-3. 各自のGithubに演習をアップするためのリポジトリを作成
-4. 上で作成したリモートリポジトリに「origin」と名前をつける
+1. 各自のGithubに演習をアップするためのリポジトリを作成<br /><br />
+1. 上で作成したリモートリポジトリに「origin」と名前をつける
 <br />$ git remote add origin  (各自のリモートリポジトリのURL)<br /><br />
-5. ローカルリポジトリをリモートのpushする
+1. ローカルリポジトリをリモートにpushする
 <br />$ git push -u origin master<br /><br />
-6. 以降は以下の操作
+1. 以降は以下の操作
 
 	* 演習を作成し、講師提出する場合、
 
-		1. ローカルリポジトリをリモートのpushする 
-<br />$ git push<br /><br />
-		2. 講師に演習を作成した旨連絡
+		1. 現在、「master」branchにいることを確認。いなければ切り替え。
+<br />$ git branch 
+<br />$ git checkout master <br /><br />
+		1. 演習の作業を行うbranchを作成し、それにcheckout
+<br />$ git checkout -b (演習リポジトリ名) <br /><br />
+		1. 演習を行い、成果物をadd, commitで、リポジトリに登録 
+<br />$ git add -A
+<br />$ git commit -m "コメント"<br /><br />
+		1. 演習の成果物を「master」branchにmerge
+<br />$ git checkout master 
+<br />$ git merge (演習リポジトリ名) <br /><br />
+		1. ローカルの「master」をGithubに上げる
+<br />$ git push <br /><br />
+		1. 講師に演習を作成した旨連絡
+			* yamauchi@std.it-college.ac.jp
 
 	* ひな形などの最新を入手する場合、
 
