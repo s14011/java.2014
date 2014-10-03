@@ -4,7 +4,7 @@
 <br />$ git clone https://github.com/KimiyukiYamauchi/java.2014 (任意のディレクトリ名)<br /><br />
 1. リモートリポジトリ「origin」を別の名前に変える
 <br />$ git remote rename origin  (任意の別名)<br /><br />
-1. 各自のGithubに演習をアップするためのリポジトリを作成<br />
+1. 各自のGithubに演習をアップするためのリポジトリを作成<br /><br />
 1. 上で作成したリモートリポジトリに「origin」と名前をつける
 <br />$ git remote add origin  (各自のリモートリポジトリのURL)<br /><br />
 1. ローカルリポジトリをリモートにpushする
