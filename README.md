@@ -2,8 +2,8 @@
 
 1. 「[java.2014](https://github.com/KimiyukiYamauchi/java.2014)」を「git clone」
 <br />$ git clone https://github.com/KimiyukiYamauchi/java.2014 (任意のディレクトリ名)<br /><br />
-1. リモートリポジトリ「origin」を別の名前に変える
-<br />$ git remote rename origin  (任意の別名)<br /><br />
+1. リモートリポジトリ「origin」を「java.2014」に変更
+<br />$ git remote rename origin java.2014<br /><br />
 1. 各自のGithubに演習をアップするためのリポジトリを作成<br /><br />
 1. 上で作成したリモートリポジトリに「origin」と名前をつける
 <br />$ git remote add origin  (各自のリモートリポジトリのURL)<br /><br />
@@ -31,7 +31,7 @@
 	* ひな形などの最新を入手する場合、
 
 		1. 「[java.2014](https://github.com/KimiyukiYamauchi/java.2014)」を「git pull」
-<br />$ git pull (自分がつけた別名) master<br /><br />
+<br />$ git pull java.2014 master<br /><br />
 
 ## 演習問題
 
