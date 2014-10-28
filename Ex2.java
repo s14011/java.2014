@@ -107,7 +107,79 @@ class Ex2_6 extends Ex{
 		double y = stdIn.nextDouble();
 
 
-		System.out.println(( x * y) /2 +  "です。");	
+		System.out.println(( x * y) /2 +  "です。");	 
+ }
+}
+
+class Ex2_7 extends Ex{
+	void execute(){
+	Random rand = new Random();
+
+		int x = rand.nextInt(9);
+		x = x + 1;
+
+		int y = rand.nextInt(9);
+		y = y - 9;
+
+		int z = rand.nextInt(99);
+		z = z + 10;	
+	
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+
+ }
+}
+
+class Ex2_8 extends Ex{
+	void execute(){
+	Random rand = new Random();
+
+		int x = rand.nextInt(11);
+		x = x - 5;
+
+	Scanner stdIn = new Scanner(System.in);
+	 
+		
+		System.out.print("整数値:");
+		int y = stdIn.nextInt();
+
+		y = y + x;	
+
+		System.out.println(y);
+ 
+ }
+}
+
+
+class Ex2_9 extends Ex{
+	void execute(){
+	Random rand = new Random();
+
+		double x = rand.nextDouble();
+		int y = rand.nextInt(10);	
+		int z = rand.nextInt(2);	
+
+		System.out.println(x);
+		System.out.println(y + x);
+		System.out.println((z - 1) + x);
+
+ }
+}
+
+
+class Ex2_10 extends Ex{
+ 	void execute(){
+ 	Scanner stdIn = new Scanner(System.in);
+
+
+ 	System.out.print("姓："); 
+ 	String x = stdIn.next();
+
+ 	System.out.print("名："); 
+ 	String y = stdIn.next();
+
+ 	System.out.println("こんにちは" + x + y +"さん。");
  
  }
 }
@@ -129,6 +201,14 @@ public class Ex2 {
 		a = new Ex2_5();
 		a.execute();
 		a = new Ex2_6();
+		a.execute();
+		a = new Ex2_7();
+		a.execute();
+		a = new Ex2_8();
+		a.execute();
+		a = new Ex2_9();
+		a.execute();
+		a = new Ex2_10();
 		a.execute();
 	}
 }
