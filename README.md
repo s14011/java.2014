@@ -18,7 +18,9 @@
 <br />$ git checkout master <br /><br />
 		1. 演習の作業を行うbranchを作成し、それにcheckout
 <br />$ git checkout -b (演習リポジトリ名) <br /><br />
-		1. 演習を行い、成果物をadd, commitで、リポジトリに登録 
+		1. 演習を作成する
+		1. テストコードを実行し、問題がないことを確認する
+		1. 成果物をadd, commitで、リポジトリに登録 
 <br />$ git add -A
 <br />$ git commit -m "コメント"<br /><br />
 		1. 演習の成果物を「master」branchにmerge
