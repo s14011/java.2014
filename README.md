@@ -9,7 +9,7 @@
 <br />$ git remote add origin  (各自のリモートリポジトリのURL)<br /><br />
 1. ローカルリポジトリをリモートにpushする
 <br />$ git push -u origin master<br /><br />
-1. 「[jUnit-4.10.jar](http://sourceforge.net/projects/junit/files/junit/4.10/)をダウンロードし、ローカルリポジトリに保存<br /><br />
+1. 「[jUnit-4.10.jar](http://sourceforge.net/projects/junit/files/junit/4.10/)」をダウンロードし、ローカルリポジトリに保存<br /><br />
 1. 以降は以下の操作
 
 	* 演習を作成し、講師提出する場合、
