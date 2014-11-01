@@ -116,6 +116,34 @@ public class Ex3Test {
 		String actual = ex3.ex3_5(-1);
 		assertThat(actual, is(expected));
 	}
+	@Test
+	public void ex3_6_３で割り切れる(){
+		Ex3 ex3 = new Ex3();
+		String expected = "その値は3で割り切れます";
+		String actual = ex3.ex3_5(3);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex3_6_３で割ると余り１(){
+		Ex3 ex3 = new Ex3();
+		String expected = "その値を3で割った余りは1です";
+		String actual = ex3.ex3_5(4);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex3_6_３で割ると余り２(){
+		Ex3 ex3 = new Ex3();
+		String expected = "その値を3で割った余りは2です";
+		String actual = ex3.ex3_5(5);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex3_6_正でない(){
+		Ex3 ex3 = new Ex3();
+		String expected = "正でない整数値です";
+		String actual = ex3.ex3_5(-1);
+		assertThat(actual, is(expected));
+	}
 
 	// エントリーポイント
 	public static void main(String[] args){
