@@ -8,7 +8,7 @@ class Ex3{
 
 	public int ex3_1(int n){
 		
-		return 0;
+		return -1;
 
 	}
 
