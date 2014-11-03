@@ -33,5 +33,13 @@ class Ex3{
 
 		return "dummy";
 	}
+	
+	public String ex3_6(int a){
+		return "dummy";
+	}
+
+	public String ex3_7(int a){
+		return "dummy";
+	}
 }
 
