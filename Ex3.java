@@ -53,5 +53,9 @@ class Ex3{
 	public String ex3_10(int a, int b){
 		return "dummy";
 	}
+
+	public int ex3_11(int a, int b, int c){
+		return 1000;
+	}
 }
 
