@@ -2,14 +2,26 @@ class Ex3{
 
 	public String ex3_0(int n){
 
-		return "dummy";
+	if(n>0){
+	return "その値は正です";
+	}else{
+	return "その値は０か負です";
+	}
+
 
 	}
 
 	public int ex3_1(int n){
-		
-		return -1;
+	Scanner scn = new Scanner(System.in);
 
+	Syatem.out.print("整数値:");
+	int n = scn.nextInt();
+
+	if (n > 0) {	
+//		return -1;
+	n = n * 1;
+	}
+	System.out.print(n);
 	}
 
 	public String ex3_2(int a, int b){
