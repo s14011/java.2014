@@ -5,5 +5,11 @@ class Ex4{
 		return a;
 
 	}
+
+	public int [] ex4_2(int [] a){
+		
+		return a;
+
+	}
 }
 
