@@ -19,5 +19,11 @@ class Ex4{
 		return hantei;
 
 	}
+
+	public int ex4_4(int a){
+		
+		return -1;
+
+	}
 }
 
