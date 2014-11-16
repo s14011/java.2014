@@ -84,6 +84,46 @@ public class Ex4Test {
 		int[] actual = ex4.ex4_2(test);
 		assertThat(actual, is(expected));
 	}
+	@Test
+	public void ex4_3_1(){
+		Ex4 ex4 = new Ex4();
+		String[] expected = {"負", "負", "負", "零", "正", "正", "正"};
+		int[] test = {-3, -2, -1, 0, 1, 2, 3};
+		String[] actual = ex4.ex4_3(test);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex4_3_2(){
+		Ex4 ex4 = new Ex4();
+		String[] expected = {"零", "負", "負", "負", "負", "負", "負"};
+		int[] test = {0, -3, -1, -6, -5, -2, -4};
+		String[] actual = ex4.ex4_3(test);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex4_3_3(){
+		Ex4 ex4 = new Ex4();
+		String[] expected = {"零", "正", "正", "正", "正", "正", "正"};
+		int[] test = {0, 3, 1, 6, 5, 2, 4};
+		String[] actual = ex4.ex4_3(test);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex4_3_4(){
+		Ex4 ex4 = new Ex4();
+		String[] expected = {"零", "負", "正", "負", "正", "負", "正"};
+		int[] test = {0, -3, 1, -6, 5, -2, 4};
+		String[] actual = ex4.ex4_3(test);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex4_3_5(){
+		Ex4 ex4 = new Ex4();
+		String[] expected = {"零", "正", "負", "正", "負", "正", "負"};
+		int[] test = {0, 3, -1, 6, -5, 2, -4};
+		String[] actual = ex4.ex4_3(test);
+		assertThat(actual, is(expected));
+	}
 
 	// エントリーポイント
 	public static void main(String[] args){

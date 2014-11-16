@@ -11,5 +11,13 @@ class Ex4{
 		return a;
 
 	}
+
+	public String [] ex4_3(int [] a){
+		
+		String [] hantei = {"dummy"};
+		
+		return hantei;
+
+	}
 }
 
