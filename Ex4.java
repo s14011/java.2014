@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class Ex4{
 
 	public int [] ex4_1(int [] a){
@@ -29,6 +31,14 @@ class Ex4{
 	public int ex4_5(int a){
 		
 		return -1;
+
+	}
+
+	public int [] ex4_6(int a){
+		
+		int [] ret = new int[1];
+		
+		return ret;
 
 	}
 }
