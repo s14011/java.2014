@@ -20,6 +20,10 @@ class Ex2_0 extends Ex{
 	}
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> chap1
 class Ex2_1 extends Ex{
 	void execute(){
 		double x;
@@ -215,6 +219,10 @@ class Ex2_000 extends Ex{
 	}
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 4da79c82c12295e2368ec1cb103ff98d57621dbd
+>>>>>>> chap1
 public class Ex2 {
 	public static void main(String[] args){
 		Ex a;
