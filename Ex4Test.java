@@ -244,6 +244,46 @@ public class Ex4Test {
 		int [] actual = ex4.ex4_6(test);
 		assertThat(actual, is(expected));
 	}
+	@Test
+	public void ex4_7_1(){
+		Ex4 ex4 = new Ex4();
+		boolean expected = false;
+		int test = 1;
+		boolean actual = ex4.ex4_7(test);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex4_7_2(){
+		Ex4 ex4 = new Ex4();
+		boolean expected = true;
+		int test = 2;
+		boolean actual = ex4.ex4_7(test);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex4_7_3(){
+		Ex4 ex4 = new Ex4();
+		boolean expected = true;
+		int test = 9999973;
+		boolean actual = ex4.ex4_7(test);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex4_7_4(){
+		Ex4 ex4 = new Ex4();
+		boolean expected = true;
+		int test = 9999991;
+		boolean actual = ex4.ex4_7(test);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex4_7_5(){
+		Ex4 ex4 = new Ex4();
+		boolean expected = false;
+		int test = 9999999;
+		boolean actual = ex4.ex4_7(test);
+		assertThat(actual, is(expected));
+	}
 
 	// エントリーポイント
 	public static void main(String[] args){

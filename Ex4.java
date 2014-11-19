@@ -41,5 +41,11 @@ class Ex4{
 		return ret;
 
 	}
+
+	public boolean ex4_7(int a){
+		
+		return false;
+
+	}
 }
 
