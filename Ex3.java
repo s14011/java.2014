@@ -1,6 +1,6 @@
 class Ex3{
 
-<<<<<<< HEAD
+
 	public String ex3_0(int n){
 
 	if(n>0){
@@ -132,7 +132,7 @@ class Ex3{
 	public String ex3_13(int a){
 		return "dummy";
 	}
-=======
+
         public String ex3_0(int n){
 
         if(n>0){
@@ -262,6 +262,6 @@ class Ex3{
         public String ex3_13(int a){
                 return "dummy";
         }
->>>>>>> chap1
+
 }
 
