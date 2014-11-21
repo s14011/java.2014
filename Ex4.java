@@ -55,5 +55,13 @@ class Ex4{
 		return ret;
 
 	}
+
+	public int ex4_9(int [] a){
+		
+		int ret = 0;
+		
+		return ret;
+
+	}
 }
 
