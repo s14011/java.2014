@@ -12,7 +12,6 @@ public class Ex5Test {
 		double actual = ex5.ex5_1(test);
 		assertThat(actual, is(expected));
 	}
-	// エントリーポイント
 	@Test
 	public void ex5_1_2(){
 		Ex5 ex5 = new Ex5();
@@ -46,6 +45,7 @@ public class Ex5Test {
 		assertThat(actual, is(expected));
 	}
 
+	// エントリーポイント
 	public static void main(String[] args){
 		org.junit.runner.JUnitCore.main(Ex5Test.class.getName());
 	}
