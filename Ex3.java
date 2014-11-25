@@ -40,7 +40,7 @@ class Ex3{
 
         public String ex3_4(int a){
 
-        if (a % 5 ==0&&a>0){
+        if (a % 5 ==0 && a > 0){
                 return "その値は5で割り切れます";
         }else if(a %  5 > 0){
                 return "その値は5で割り切れません";
@@ -123,11 +123,29 @@ class Ex3{
         }
 
         public int ex3_12(int a, int b, int c){
-                return 3333;
+     	if (a > b && b > c){
+		return b;
+	}else if(b > a && a > c){
+		return a;
+	}else {
+		return c;
+	}
         }
 
         public String ex3_13(int a){
-                return "dummy";
+	if (a >= 3 && a <= 5){
+		return "春";
+	}else if(a >= 6 && a <= 8){
+		return "夏";
+	}else if(a >= 9 && a <= 11){
+		return "秋";
+	}else if(a == 12 || a == 1 || a == 2){
+		return "冬";
+	}else {
+		return "範囲(1～12)外の値です";
+	}        
+
+
         }
 }
 
