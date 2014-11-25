@@ -41,5 +41,27 @@ class Ex4{
 		return ret;
 
 	}
+
+	public boolean ex4_7(int a){
+		
+		return false;
+
+	}
+
+	public int ex4_8(int [] a){
+		
+		int ret = 0;
+		
+		return ret;
+
+	}
+
+	public int ex4_9(int [] a){
+		
+		int ret = 0;
+		
+		return ret;
+
+	}
 }
 
